@@ -1,6 +1,4 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/painting.dart';
 
 enum ProgressDialogType { Normal, Download }
 
@@ -15,7 +13,7 @@ Alignment _progressWidgetAlignment = Alignment.centerLeft;
 TextDirection _direction = TextDirection.ltr;
 
 bool _isShowing = false;
-BuildContext _context, _dismissingContext;
+BuildContext? _context, _dismissingContext;
 ProgressDialogType? _progressDialogType;
 bool _barrierDismissible = true, _showLogs = false;
 
@@ -115,7 +113,7 @@ class ProgressDialog {
     try {
       if (_isShowing) {
         _isShowing = false;
-        Navigator.of(_dismissingContext).pop();
+        Navigator.of(_dismissingContext!).pop();
         if (_showLogs) debugPrint('ProgressDialog dismissed');
         return Future.value(true);
       } else {
@@ -134,7 +132,7 @@ class ProgressDialog {
       if (!_isShowing) {
         _dialog = new _Body();
         showDialog<dynamic>(
-          context: _context,
+          context: _context!,
           barrierDismissible: _barrierDismissible,
           builder: (BuildContext context) {
             _dismissingContext = context;
