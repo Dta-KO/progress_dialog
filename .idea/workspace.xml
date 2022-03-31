@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bad80ee9-7329-4f4b-8d42-298d211f225a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/progress_dialog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/progress_dialog.iml" afterDir="false" />
+    <list default="true" id="bad80ee9-7329-4f4b-8d42-298d211f225a" name="Default Changelist" comment="migrate to V2">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586597066800</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="migrate to V2">
+      <created>1648736827760</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1648736827760</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">
@@ -199,7 +206,8 @@
     <MESSAGE value="Changed readme" />
     <MESSAGE value="changed docs dir to doc, removed author name in pubspec.yaml" />
     <MESSAGE value="github pages issue fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="github pages issue fix" />
+    <MESSAGE value="migrate to V2" />
+    <option name="LAST_COMMIT_MESSAGE" value="migrate to V2" />
   </component>
   <component name="masterDetails">
     <states>
